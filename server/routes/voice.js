@@ -9,7 +9,7 @@ const VoiceProject = require('../models/VoiceProject');
 // Initialize Google TTS client
 const ttsClient = new TextToSpeechClient();
 
-// @route    POST api/voice/generate
+// @route    POST api/voice-generate
 // @desc     Generate voice from text
 // @access   Private
 router.post(
